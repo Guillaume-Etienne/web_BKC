@@ -1,6 +1,6 @@
 @import "./variables";
-@import "./menu_burger.scss";
-@import "./Desktop.scss";
+@import "./menu_burger";
+@import "./desktopresponsive";
 *{
     box-sizing: border-box;    
 }
@@ -34,7 +34,7 @@ h1{
     text-align: center;
 }
 main{
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     & p{
@@ -54,7 +54,7 @@ video{
 }
 .flexi{
     // temp pour travail        
-    background-color: grey;
+    background-color:lightgray;
     // normal
     display: flex;
     flex-direction: column;
@@ -67,4 +67,16 @@ video{
         }
     }
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    & i{
+        font-size: 4em;
+    }
+}
+// hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
+@import "./desktopresponsive";
 
