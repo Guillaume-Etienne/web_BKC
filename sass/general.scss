@@ -3,11 +3,15 @@
 *{
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body
 {
     margin: 5px;
     padding: 5px;
     min-width: 386px;
+    max-width: 1400px;
     background: rgb(250, 250, 250);
     color: #4d4d4d;
     font-family: "Avenir Next", "Avenir", sans-serif;
@@ -24,7 +28,9 @@ h1{
 }
 video{
     position: absolute;
-    width: 100%;
+    max-width: 100%;
+    min-height: 250px;
+    object-fit: cover;
     margin: 0 -10px 0 -10px;
     padding: 0 0 0 0;
     // border-radius: 10px;
