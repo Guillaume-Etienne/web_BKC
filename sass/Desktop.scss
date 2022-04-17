@@ -1,0 +1,50 @@
+@media screen and (min-width: 1280px) {
+    .burger-icon span, .sidenav .close{
+        display: none;
+    }
+    #lang {
+        width: 100px;
+        background-color: #818181;
+        // margin: 0;
+        // padding: 0;
+    }
+    
+
+.sidenav {
+    height: auto;
+    width: 100%;
+    position: relative;  
+    // z-index: 1;
+    top: auto;
+    left: auto;
+    // background-color: #e8e8e8;
+    padding-top: 0;
+    transition: top 0.5s ease;
+    & ul{
+      list-style-type: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+    & a{
+      padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 1em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+  }
+  
+  .sidenav a:hover {
+    color: #111;
+  }
+  
+  /* Active class */
+  .sidenav.active {
+    left: 0;
+  }
+  
+  
+  
+}
