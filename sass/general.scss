@@ -4,9 +4,23 @@
 }
 body
 {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 10;
+    min-width: 386px;
     background: grey;
     color: #cdcdcd;
     font-family: "Avenir Next", "Avenir", sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    & img{
+        width: 50px;
+    }
+}
+h1{
+    text-align: center;
+}
+video{
+    max-width: 100%;
 }
