@@ -1,4 +1,11 @@
 @media screen and (min-width: 1280px) {
+    header{
+        position:relative;
+        & img{
+            width: 90px;
+            margin: auto;
+        }
+    }
     body{
         margin: auto;
         box-shadow: 0 0 1em #D9D9D9;
