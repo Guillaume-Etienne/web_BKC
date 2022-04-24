@@ -1,6 +1,6 @@
 @import "./variables";
 @import "./menu_burger";
-@import "./desktopresponsive";
+@import "./animations";
 *{
     box-sizing: border-box;    
 }
@@ -16,6 +16,7 @@ body
     background: $colorbackground;
     color: $colorprimary;
     font-family: "Avenir Next", "Avenir", sans-serif;
+    animation: fromUp 1.8s;
 }
 header{    
     position:sticky;
