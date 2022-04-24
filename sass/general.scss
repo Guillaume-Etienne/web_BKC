@@ -14,7 +14,7 @@ body
     min-width: 386px;
     max-width: 1400px;
     background: $colorbackground;
-    color: #4d4d4d;
+    color: $colorprimary;
     font-family: "Avenir Next", "Avenir", sans-serif;
 }
 header{    
@@ -34,7 +34,7 @@ h1{
     text-align: center;
 }
 main{
-    margin-top: 20px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     & p{
@@ -42,28 +42,23 @@ main{
         margin: 0;
     }
 }
-video{
-    // position: absolute;
+video{    
     max-width: 100%;
     min-height: 250px;
     object-fit: cover;
-    margin: 0;
-    padding: 0 0 0 0;
-    // border-radius: 10px;
+    margin: 0 0 10px 0;
+    padding: 0 0 0 0;    
     box-shadow: 0 0 1em #D9D9D9;
 }
-.flexi{
-    // temp pour travail        
-    background-color:lightgray;
-    // normal
+.flexi{    
+    margin: 10px 0 10px 0;
     display: flex;
     flex-direction: column;
     
     & figure{
-        // temporaire pour le travail
-        max-width: 100%;
-        margin: 0;
-        box-shadow: 0 0 1em #D9D9D9;
+        margin: 0 0 18px 0;
+        max-width: 100%;        
+        // box-shadow: 0 0 1em #D9D9D9;
         & img{
             width: 100%;
         }
@@ -71,13 +66,18 @@ video{
 }
 
 footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    & i{
-        font-size: 4em;
-    }
+    margin-top: 10px;
+    padding: 10px;
+    background-color: antiquewhite;
+    text-align: center;    
+    & #footicons{
+        display: flex;
+        justify-content:center;
+        & img{
+            width: 50px;
+            margin: 20px;
+        }
+    }    
 }
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";
