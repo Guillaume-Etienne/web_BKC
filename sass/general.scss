@@ -101,6 +101,19 @@ footer{
         }
     }    
 }
+// pages
+img {
+    width: 100%;
+}
+#headsection h1, #headsection h2{
+    transform: translateY(-180px);
+    color: white;
+    font-size: 1.8em;    
+}
+#mainsection{
+    margin-top: -100px;
+}
+
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";
 
