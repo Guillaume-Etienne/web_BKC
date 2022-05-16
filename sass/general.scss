@@ -94,16 +94,20 @@ figure{
     }
 }
 footer{
-    margin-top: 10px;
+    margin-top: 0;
     padding: 10px;
     background-color: lightcyan;
-    text-align: center;    
+    text-align: center;
+    & p {
+        margin-top: 0;
+    } 
     & #footicons{
         display: flex;
+        padding: 0;
         justify-content:center;
         & img{
             width: 50px;
-            margin: 20px;
+            margin: 10px 20px 10px 20px;
         }
     }    
 }
@@ -117,7 +121,10 @@ img {
     font-size: 1.8em;    
 }
 #mainsection{
-    margin-top: -100px;
+    transform: translateY(-180px);
+    & h3{
+        text-align: center;
+    }
 }
 
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
