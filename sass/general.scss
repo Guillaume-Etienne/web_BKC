@@ -15,12 +15,12 @@ body
 {
     margin: 0;    
     padding: 0;
-    //min-width: 280px;
+    min-width: 380px;
     max-width: 1400px;
     background: $colorbackground;
     color: $colorprimary;
     font-family: "Avenir Next", "Avenir", sans-serif;
-    animation: fromUp 1.8s;
+    animation: fromUp 1.8s;    
 }
 header{    
     position:sticky;
@@ -115,17 +115,29 @@ footer{
 img {
     width: 100%;
 }
+#headsection {
+    display: flex;
+    flex-direction: column;
+    max-height: 280px;
+    & h1 {
+        margin-top: -160px;
+    }
+    & img {
+        max-height: 280px;
+        object-fit: cover;
+    }
+}
 #headsection h1, #headsection h2{
-    transform: translateY(-180px);
     color: white;
     font-size: 1.8em;    
 }
-#mainsection{
-    transform: translateY(-180px);
-    & h3{
-        text-align: center;
-    }
+#mainsection {
+    margin-top: 20px;
 }
+.fleximg {
+    margin-top: 20px;
+}
+
 
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";

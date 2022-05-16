@@ -76,5 +76,34 @@
             margin-top: 28px;
         }
     }
+    // pages
+    #headsection{
+        height: 260px;
+        & img{
+            max-height:100%;
+        }
+    }
+    #mainsection{
+        margin-top: 60px;
+        padding: 10px;
+        max-width: 100%;    
+    }
+    .flexdiv {
+        display: flex;
+    }
+    .flextext {
+        flex-basis: 60%;
+        & p{
+            text-align: justify;
+        }    
+    }
+    .fleximg {
+        display: flex;
+        max-height: 300px;
+        & img {
+            object-fit: cover;
+            margin-left: 10px;
+        }
+    }
 }
 
