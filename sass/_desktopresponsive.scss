@@ -86,10 +86,14 @@
     #mainsection{
         margin-top: 60px;
         padding: 10px;
-        max-width: 100%;    
+        max-width: 100%;
+        & :nth-child(2n){
+            flex-direction: row-reverse;            
+        }   
     }
     .flexdiv {
         display: flex;
+        
     }
     .flextext {
         flex-basis: 60%;
