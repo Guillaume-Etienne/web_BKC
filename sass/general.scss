@@ -55,8 +55,7 @@ video{
     padding: 0 0 0 0;
     box-shadow: $shadowmobile;
 }
-figure{    
-    //max-width: 100%;
+figure{        
     margin: 0;
     padding: 0;    
     & img{        
@@ -75,11 +74,21 @@ figure{
         max-width: 800px;        
     }
 }
+#feednpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
 
 #partnairesListe {
-
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 5px;
     & img {
-    width: 100px;
+        margin: 5px;;
+        width: 100px;
     }
 }
 #whoweare {
