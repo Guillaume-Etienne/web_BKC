@@ -55,9 +55,7 @@
             border-radius: 10px;
         }
         & figure{
-            
-            max-width: 100%;        
-            // box-shadow: 0 0 1em #D9D9D9;
+            max-width: 100%;
             & img{
                 width: 100%;
                 border-radius: 10px 10px 0 0;
@@ -76,7 +74,12 @@
             margin-top: 28px;
         }
     }
-    // pages
+    // Accueil
+    #feednpart {
+        flex-direction: row;
+        margin : 40px;
+    }
+    // Pages
     #headsection{
         height: 260px;
         & img{
@@ -93,18 +96,18 @@
     }
     .flexdiv {
         display: flex;
+        flex-direction: row;
         box-shadow: $shadowmobile;
         margin: 40px;
         padding: 20px;
-        border-radius: 5px;
-        
+        border-radius: 5px;        
     }
     .flextext {
         flex-basis: 60%;
         & p{
             text-align: justify;
         }    
-    }
+    }    
     .fleximg {
         display: flex;
         max-height: 300px;
@@ -114,10 +117,14 @@
             border-radius: 5px;
         }
     }
-    #feednpart {
-        flex-direction: row;
-        margin : 40px;
+    //modification du flex lorsque le texte est long
+    .longtext{                
+        flex-basis: 180%;        
     }
+    .background{
+        background-color: $colorsecondary;
+    }    
+    
 
 }
 

@@ -19,8 +19,11 @@ body
     max-width: 1400px;
     background: $colorbackground;
     color: $colorprimary;
-    font-family: "Avenir Next", "Avenir", sans-serif;
-    animation: fromUp 1.8s;    
+    font-family: "Roboto", "Avenir", sans-serif;
+    animation: fromUp 1.8s;
+    & em{
+        font-style: normal;        
+    }
 }
 header{    
     position:sticky;
@@ -143,9 +146,14 @@ img {
 #mainsection {
     margin-top: 20px;    
 }
-
-.fleximg {
+.flexdiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;           
+}
+.fleximg {    
     margin-top: 20px;
+    max-width: 800px;
 }
 .flextext p {
     text-align: justify;
