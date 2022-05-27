@@ -102,7 +102,10 @@
         max-width: 100%;
         & :nth-child(2n){
             flex-direction: row-reverse;            
-        }   
+        }
+        & a:hover{
+            font-size: 1.1em;        
+        }
     }
     .flexdiv {
         display: flex;
