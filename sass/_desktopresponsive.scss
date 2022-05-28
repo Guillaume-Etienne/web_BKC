@@ -104,7 +104,9 @@
             flex-direction: row-reverse;            
         }
         & a:hover{
-            font-size: 1.1em;        
+            transform: scale(120%);
+            transform: translateY(10 px);
+            background-color: $colorsecondary;
         }
     }
     .flexdiv {
