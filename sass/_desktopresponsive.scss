@@ -142,6 +142,13 @@
         background-color: $colorsecondary;
     }    
     // pages prix
+    #packages{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .packs{ 
+        max-width: 500px;        
+    }
     .groupPrice{
         flex-direction: row;
         max-width: fit-content;

@@ -168,13 +168,17 @@ img {
     text-align: justify;
 }
 //pages prix
+#packages{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .packs{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 10px;
-    padding: 10px;
-    // background-color: aqua;
+    padding: 10px;    
     max-width: 700px;
     box-shadow: $shadowmobile;   
     & aside {
@@ -186,19 +190,34 @@ img {
         }
     }
     & ul {
-        list-style-type:none;
+        list-style-type:'- ';
     }
 }
-#price{
+.price{
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+    & button {
+        border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;    
+    background-color: rgb(92, 179, 206);
+    
+    }
 }
 .groupPrice{
+    margin-top: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 700px;
-
+    & img{
+        margin: 5px;
+    }
 }
 
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
