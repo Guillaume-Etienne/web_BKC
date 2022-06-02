@@ -2,11 +2,11 @@
 @import "./menu_burger";
 @import "./animations";
 
-// general, puis pages
+// general, puis pages, pages prix
 
 *{
     box-sizing: border-box;
-    text-shadow: 0 0 2px grey; 
+    text-shadow: 0 0 1px $textshadow; 
 }
 a{
     text-decoration: none;
@@ -26,10 +26,11 @@ body
     font-family: "Roboto", "Avenir", sans-serif;
     animation: fromUp 1.8s;
     & em{
-        font-style:larger ;        
+        font-style:normal;         
+        text-shadow: 0 0 2px $textshadow;
     }
     & a {
-        font-weight: bold;
+        // font-weight: bold;
     }
     
 }
@@ -166,7 +167,39 @@ img {
 .flextext p {
     text-align: justify;
 }
+//pages prix
+.packs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;
+    // background-color: aqua;
+    max-width: 700px;
+    box-shadow: $shadowmobile;   
+    & aside {
+        transform:translateY(-50px);
+        background-color: white;
+        padding: 10px 10px 20px 10px;
+        & h2{
+            margin-top: 5px;
+        }
+    }
+    & ul {
+        list-style-type:none;
+    }
+}
+#price{
+    display: flex;
+    justify-content: space-around;
+}
+.groupPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
 
+}
 
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";
