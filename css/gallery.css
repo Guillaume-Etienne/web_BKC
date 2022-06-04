@@ -76,15 +76,7 @@ body {
       max-width: 50%;
       transform: rotate(-30deg);
       filter: blur(4px);
-    }
-    30% {
-      filter: blur(4px);
-      transform: rotate(-80deg);
-    }
-    70% {
-      max-width: 50%;
-      transform: rotate(45deg);
-    }
+    }    
     100% {
       max-width: 100%;
       transform: rotate(0deg);
@@ -95,14 +87,6 @@ body {
       max-width: 50%;
       transform: rotate(-30deg);
       filter: blur(4px);
-    }
-    30% {
-      filter: blur(4px);
-      transform: rotate(-80deg);
-    }
-    70% {
-      max-width: 50%;
-      transform: rotate(45deg);
     }
     100% {
       max-width: 100%;
@@ -115,14 +99,6 @@ body {
       transform: rotate(-30deg);
       filter: blur(4px);
     }
-    30% {
-      filter: blur(4px);
-      transform: rotate(-80deg);
-    }
-    70% {
-      max-width: 50%;
-      transform: rotate(45deg);
-    }
     100% {
       max-width: 100%;
       transform: rotate(0deg);
@@ -133,14 +109,6 @@ body {
       max-width: 50%;
       transform: rotate(-30deg);
       filter: blur(4px);
-    }
-    30% {
-      filter: blur(4px);
-      transform: rotate(-80deg);
-    }
-    70% {
-      max-width: 50%;
-      transform: rotate(45deg);
     }
     100% {
       max-width: 100%;
