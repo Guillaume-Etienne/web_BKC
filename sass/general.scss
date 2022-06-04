@@ -30,9 +30,11 @@ body
         text-shadow: 0 0 2px $textshadow;
     }
     & a {
-        // font-weight: bold;
+        font-weight: bold;
     }
-    
+.vimeo{
+    margin-top: 20px;
+}
 }
 header{    
     position:sticky;
