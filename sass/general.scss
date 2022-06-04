@@ -168,6 +168,9 @@ img {
     text-align: justify;
 }
 //pages prix
+#mainprice{
+    margin-top: 30px;
+}
 #packages{    
     display: flex;
     flex-direction: column;
@@ -209,11 +212,15 @@ img {
     
     }
 }
-.groupPrice{
-    margin-top: 8px;
+#prixlessons{    
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.groupPrice{        
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
     max-width: 700px;
     & img{
         margin: 5px;
