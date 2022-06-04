@@ -2,7 +2,7 @@
 @import "./menu_burger";
 @import "./animations";
 
-// general, puis pages, pages prix
+// general, puis pages, pages prix, page galerie
 
 *{
     box-sizing: border-box;
@@ -232,7 +232,13 @@ img {
         margin: 5px;
     }
 }
-
+// PAge galerie
+#containervimeo{
+    width: 100%;
+    height: 100%;
+    background-color:red ;
+    position: relative;
+}
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";
 
