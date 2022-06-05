@@ -113,10 +113,13 @@ figure{
     & figure{
         margin: 20px 0 18px 0;
         padding-bottom: 10px;
-        max-width: 100%;        
+        max-width: 600px;        
         box-shadow: $shadowmobile;
         & img{
             width: 100%;
+        }
+        & a{
+            box-shadow: none;
         }
     }
 }
@@ -236,7 +239,7 @@ img {
 #containervimeo{
     width: 100%;
     height: 100%;
-    background-color:red ;
+    // background-color:red ;
     position: relative;
 }
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
