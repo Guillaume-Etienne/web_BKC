@@ -2,7 +2,7 @@
 @import "./menu_burger";
 @import "./animations";
 
-// general, puis pages, pages prix, page galerie
+// general, puis pages, prix, galerie, infos
 
 *{
     box-sizing: border-box;
@@ -13,11 +13,7 @@ a{
     color: $colorprimary;
     &:visited{
         color: $colorprimary;
-    }
-    &:active{
-        border-style: none;
-    }
-    
+    }        
 }
 body
 {
@@ -241,6 +237,10 @@ img {
     height: 100%;
     // background-color:red ;
     position: relative;
+}
+// Page Infos
+li img{
+    width: 11px;
 }
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";
