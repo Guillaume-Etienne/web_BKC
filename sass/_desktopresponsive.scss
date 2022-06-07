@@ -140,7 +140,11 @@
     }
     .background{
         background-color: $colorsecondary;
-    }    
+    }
+    // page galerie
+    #xaixai {
+        max-height: 100%;
+    }
     // pages prix
     #packages{
         flex-direction: row;
