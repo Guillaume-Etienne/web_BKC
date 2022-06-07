@@ -110,26 +110,26 @@
             background-color: $colorsecondary;
         }
     }
-    .flexdiv {
-        display: flex;
+    .flexdiv {        
         flex-direction: row;
         box-shadow: $shadowmobile;
         margin: 40px;
         padding: 20px;
         border-radius: 5px;        
     }
-    .flextext {
-        flex-basis: 60%;
+    .flextext {        
+        width: 50%;
         & p{
             text-align: justify;
         }    
     }    
-    .fleximg {
+    .fleximg {        
         margin-top: 0;
         display: flex;
         max-height: 300px;
         & img {
             object-fit: cover;
+            width: 49%;
             margin-left: 10px;
             border-radius: 5px;
         }
