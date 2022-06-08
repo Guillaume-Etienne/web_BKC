@@ -29,6 +29,7 @@ body {
 }
 .byebye {
     opacity: 0;
+    /* border: solid red; */
 }
 .byebye:hover {
     transform: scale(0.2) !important;
