@@ -16,8 +16,11 @@
     }
     #lang {
         width: 100px;
-        background-color: #818181;        
-    }    
+        background-color: #818181;
+    }
+    a:hover{
+        transform: scale(105%);
+    }
     .sidenav {
         height: auto;
         width: 100%;
@@ -47,7 +50,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        align-items:flex-start;
+        align-items:flex-start;        
         & a{
             margin : 20px;
             width: 640px;
@@ -59,6 +62,7 @@
         }
         & figure{
             max-width: 100%;
+            border-radius: 10px 10px 0 0;
             & img{
                 width: 100%;
                 border-radius: 10px 10px 0 0;
