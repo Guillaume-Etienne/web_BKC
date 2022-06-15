@@ -38,19 +38,26 @@
     </header>
 
     <main>
-        <h1>Infos</h1>
-        <p>Il y a tant de choses à vous dire ! Les voici résumées sous forme de liens :
+        <section id="headsection">
+            <img src="../images/7-infos/1.webp" alt="monde de l'information">
+            <h1>Informations / contacts</h1>
+            <h2>Pour en savoir plus</h2>
+        </section>
+        <section id="introinfos">
+            <p>Il y a tant de choses à vous dire ! Les voici résumées sous forme de liens : <br></p>
+            <p id="piti">(cliquer sur un lien vous emmène au chapitre concerné, un nouveau clic vous ramène ici)</p> 
             <ul id="menulist">
-                <a href="#acco"><li>Hébergement <img src="../icons/arrow-down-solid.svg" alt="fleche bas"></li></a>
-                <a href="#flights"><li>Vols <img src="../icons/arrow-down-solid.svg" alt="fleche bas"></li></a>
-                <a href="#visas"><li>Visas <img src="../icons/arrow-down-solid.svg" alt="fleche bas"></li></a>
-                <a href="#transferts"><li>Transferts aéroport <img src="../icons/arrow-down-solid.svg" alt="fleche bas"></li></a>
-                <a href="#situation"><li>La situation au Mozambique <img src="../icons/arrow-down-solid.svg" alt="fleche bas"></li></a>
-                <a href="#sanitaire"><li>Précautions sanitaires <img src="../icons/arrow-down-solid.svg" alt="fleche bas"></li></a>
-                <a href="#emporter"><li>A emporter avec vous <img src="../icons/arrow-down-solid.svg" alt="fleche bas"></li></a>
-                <a href="#contactus"><li>Nous contacter <img src="../icons/arrow-down-solid.svg" alt="fleche bas"></li></a>
+                <a href="#acco"><li>Hébergement</li></a>
+                <a href="#flights"><li>Vols</li></a>
+                <a href="#visas"><li>Visas</li></a>
+                <a href="#transferts"><li>Transferts aéroport</li></a>
+                <a href="#situation"><li>La situation au Mozambique</li></a>
+                <a href="#sanitaire"><li>Précautions sanitaires</li></a>
+                <a href="#emporter"><li>A emporter avec vous</li></a>
+                <a href="#contactus"><li>Nous contacter</li></a>
             </ul>
-        </p>
+        </section>
+        
         <section id="mainsection">
             <div class="flexdiv">
                 <div class="flextext" id="acco">
@@ -66,7 +73,7 @@
             </div>               
             <div class="flexdiv background" id="flights">
                 <div class="flextext">
-                    <h2>Les vols</h2>
+                    <a href="#menulist"><h2><img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> Les vols <img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> </h2></a>
                     <p>De nombreuses compagnies aériennes desservent Maputo, la capitale du Mozambique.
                         Parmi elles
                         Ethiopian Airlines
@@ -87,7 +94,7 @@
             </div>
             <div class="flexdiv">
                 <div class="flextext" id="visas">
-                    <h2>Les visas pour le Mozambique</h2>
+                    <a href="#menulist"><h2><img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> Les visas pour le Mozambique <img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> </h2></a>
                     <p>La règlementation change souvent au Mozambique quant à la possibilité d’obtenir un visa touristique directement à votre arrivée à l’aéroport.
                         Il est préconisé d’obtenir ce visa à l’avance, en contactant <a href="http://ambassademozambiquefrance.fr/consular-affairs/visa-section?lang=fr">l’Ambassade du Mozambique en France.</a>                    
                         N’hésitez pas à nous contacter pour en savoir plus sur les possiblités d’obtention de visa directement à l’arrivée.
@@ -101,7 +108,7 @@
             </div>               
             <div class="flexdiv background" id="transferts">
                 <div class="flextext">
-                    <h2>Les transferts aéroport</h2>
+                    <a href="#menulist"><h2><img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> Les transferts aéroport <img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> </h2></a>
                     <p>Ils se font en taxi, sur une route goudronnée en bon état, au milieu des paysages typiquement africains.
                         Nous avons un accord de partenariat et nous occupons de les réserver pour vous.                    
                     </p>
@@ -113,7 +120,7 @@
             </div>
             <div class="flexdiv">
                 <div class="flextext" id="situation">
-                    <a href="#menulist"><h2>La situation au Mozambique</h2></a>
+                    <a href="#menulist"><h2><img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> La situation au Mozambique <img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> </h2></a>
                     <p>Le Mozambique est un pays calme et accueillant, ses habitants sont chaleureux et souriant. Bon nombre de nos convives ont visités
                         de nombreux spots , en taxi ou même à bord des traditionnels « chapas » (transports locaux), sans parler des familles entières,
                         enfants en bas âge inclus,  qui l’ont parcouru en Van ou 4x4 aménagés (ubuntu adventure).</p>
@@ -125,7 +132,7 @@
             </div>               
             <div class="flexdiv background" id="sanitaire">
                 <div class="flextext">
-                    <h2>Précautions sanitaires</h2>
+                    <a href="#menulist"><h2><img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> Précautions sanitaires <img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> </h2></a>
                     <p>Teresa est infirmière-urgentiste à la Croix-Rouge internationale, elle est intervenue sur de nombreuses scènes de catastrophes naturelles dans le monde entier, autant dire que les égratignures du quotidien seront vite oubliées.
                         Le spot est totalement safe et sécure, s’il arrivait vraiment quelque chose, le Mozambique comporte plusieurs hôpitaux privés au personnel compétent.
                         Il n’y pas de vaccination nécessaire pour le Mozambique.
@@ -141,7 +148,7 @@
             </section>
             <section class="flexdiv" id="emporter">
                 <div class="flextext">
-                    <a href="#menulist"><h2><img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> A emporter avec vous <img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> </h2></a>   
+                    <a href="#menulist"><h2><img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> A emporter avec vous <img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> </h2></a>
                     <p>Bilene profite d’un climat tropical idéal du fait de sa proximité avec l’océan. La moyenne des températures est autour de 30°, l’eau n’en est pas loin. 
                         Nous naviguons en Lycra la plupart du temps, un shorty peut être utile pour les jours de vent fort.
                         Une liste non exhaustive de ce que nous préconisons d’emporter avec vous :
@@ -159,7 +166,7 @@
             </section>
         </section>
         <section id="contactus">
-            <h2>Nous contacter</h2>
+            <a href="#menulist"><h2><img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> Nous contacter <img src="../icons/arrow-up-solid.svg" alt="flèche haut" class="arrow"> </h2></a>
             <p>Pas de robot que de l'humain de l'autre côté de l'écran !</p>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdWUWL2O2EnkCcHwrPwBHKuq2T8ppf0SRJYzRoQVa5GG6vuig/viewform?embedded=true" width="100%" height="981" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </section>          

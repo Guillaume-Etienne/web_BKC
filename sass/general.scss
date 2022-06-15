@@ -249,6 +249,21 @@ img {
 li img, .arrow{
     width: 11px;
 }
+#introinfos{    
+    margin-top: 30px;    
+    
+    & ul{
+        list-style-type:'| ';
+        display: flex;
+        flex-wrap: wrap;
+        & li{
+            margin-left: 20px;
+        }        
+    }
+}
+#piti {
+    font-size: smaller;
+}
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";
 
