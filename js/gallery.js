@@ -1,6 +1,6 @@
 var gallery = document.querySelector('#gallery');
-var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); }; // donne le CSS final d'un élément (en chiffre ?)
-var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; }; // retourne la hauteur
+var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
 var resizeAll = function () {
     var altura = getVal(gallery, 'grid-auto-rows');
     var gap = getVal(gallery, 'grid-row-gap');
@@ -14,10 +14,9 @@ var resizeAll = function () {
 gallery.querySelectorAll('img').forEach(function (item) {
     item.classList.add('byebye');
     if (item.complete) {
-        console.log("bim !" + item.src);
+        console.log(item.src);
     }
-    else {
-        console.log("else lancé");
+    else {        
         item.addEventListener('load', function () {
             var altura = getVal(gallery, 'grid-auto-rows');
             var gap = getVal(gallery, 'grid-row-gap');

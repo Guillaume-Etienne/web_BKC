@@ -147,7 +147,10 @@
     }
     // page galerie
     #xaixai {
-        max-height: 100%;
+        transform: translateX(150px);
+    }
+    .middle {
+        justify-content: space-around;
     }
     // pages prix
     #packages{
@@ -164,6 +167,10 @@
         & img{
             width: 50%;
         }
+    }
+    // vidéos
+    #logoairtricks {
+        width: 100%;
     }
 }
 
