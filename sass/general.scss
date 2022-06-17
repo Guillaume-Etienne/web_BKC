@@ -264,6 +264,19 @@ li img, .arrow{
 #piti {
     font-size: smaller;
 }
+// Page videos 
+#videos{
+    text-align: center;
+    margin: 20px;    
+    & iframe{        
+        max-width: 100%;
+    }
+    // & > div{
+    //     // position: absolute;
+    //     display: block;
+    //     max-width: 100px;
+    // }
+}
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";
 
