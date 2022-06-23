@@ -52,6 +52,12 @@ header{
 h1, h2{
     text-align: center;
 }
+#lang {
+    background-color: $colorsecondary;        
+        border-radius: 20px;
+        padding: 0 20px 0 20px;
+}
+
 main{
     margin-top: 15px;
     display: flex;

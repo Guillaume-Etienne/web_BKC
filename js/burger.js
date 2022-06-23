@@ -1,4 +1,3 @@
-console.log("JS Lancé mec !")
 var sidenav = document.getElementById("mySidenav");
 var openBtn = document.getElementById("openBtn");
 // var openBtn = document.getElementsByClassName("burger-icon")
