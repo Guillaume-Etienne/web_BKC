@@ -29,29 +29,15 @@ langSelector.addEventListener('click', function(event){
   console.log('ça a cliqué ! la : '+ event.target)  
   var resultLang=event.target.toString() 
 
-  if (resultLang.includes("es")){
-    console.log('estas espanol hombre !')
+  if (resultLang.includes("es")){    
     localStorage.setItem("lang","es")
   }
-  else if (resultLang.includes("en")){
-    console.log('You speak english !')
+  else if (resultLang.includes("en")){    
     localStorage.setItem("lang","en")
   }
-  else{
-    console.log('Fromage mon pote !')
+  else{    
     localStorage.setItem("lang","fr")
   }
 });
 
-// detect and apply.
-switch(localStorage.getItem("lang")){
-  case 'en':
-    console.log("on a coché EN son !")
-    break
-  case 'es':
-    console.log("on a coché ES hijo !")
-    break
-  case 'fr':
-    console.log("on a coché FR fils !")
-    break
-}
+// detect and apply  -> on specific JS to work only on the index

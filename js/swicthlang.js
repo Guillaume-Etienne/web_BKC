@@ -1,4 +1,4 @@
-// detect and apply.
+// detect lang in localSto and apply.
 switch(localStorage.getItem("lang")){
     case 'en':
         window.location.href = "../en/index.html";
@@ -10,3 +10,5 @@ switch(localStorage.getItem("lang")){
         console.log("on a coché FR fils !")
         break
 }
+// if not detected, redirect according navigator language
+console.log("langue du navigateur : "+ navigator.language)
