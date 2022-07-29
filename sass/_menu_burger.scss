@@ -19,7 +19,7 @@
   font-size: 25px;
   color: $colorgreytext1;
   display: block;
-  transition: 0.3s;
+  transition: 0.3s;  
   }
 }
 
@@ -34,6 +34,7 @@
 /* Active class */
 .sidenav.active {
   left: 0;
+  z-index: 1;
 }
 
 /* Close btn */
