@@ -73,7 +73,8 @@ video{
     object-fit: cover;
     margin: 0 0 10px 0;
     padding: 0 0 0 0;
-    box-shadow: $shadowmobile;    
+    box-shadow: $shadowmobile;
+    pointer-events: none;
 }
 figure{        
     margin: 0;
