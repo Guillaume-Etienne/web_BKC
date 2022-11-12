@@ -53,7 +53,7 @@
         align-items:flex-start;        
         & a{
             margin : 20px;
-            width: 640px;
+            width: 640px;            
             border-radius: 10px;
             transition: 0.1s;
         }
@@ -61,7 +61,7 @@
             transform: scale(105%);
         }
         & figure{
-            max-width: 100%;
+            max-width: 100%;            
             border-radius: 10px 10px 0 0;
             & img{
                 width: 100%;
