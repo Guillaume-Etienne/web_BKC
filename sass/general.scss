@@ -2,7 +2,7 @@
 @import "./menu_burger";
 @import "./animations";
 
-// general, puis pages, prix, galerie, infos
+// general, puis pages, prix, galerie, infos, secret
 
 *{
     box-sizing: border-box;
@@ -291,6 +291,20 @@ li img, .arrow{
     //     display: block;
     //     max-width: 100px;
     // }
+}
+
+// Page secret
+.secret{
+    & a{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+#mora {
+    max-width: 900px;
+    margin: 20px auto;
 }
 // hallucinant : après plusieurs manip, le responsive ne fonctionne qu'en important ici ci-dessous
 @import "./desktopresponsive";
