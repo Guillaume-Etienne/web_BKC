@@ -1,4 +1,4 @@
-// Buger menu    /  Automatised Language Selector
+// Buger menu    /  Année automatique / Automatised Language Selector
 
 // burger :
 
@@ -19,6 +19,11 @@ function openNav() {
 function closeNav() {
   sidenav.classList.remove("active");
 }
+
+// année automatique
+const date = new Date();
+const year = date.getFullYear();
+document.getElementById("activeyear").innerHTML = year;
 
 // language automatised selector
 
