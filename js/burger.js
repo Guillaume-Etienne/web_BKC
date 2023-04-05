@@ -1,4 +1,4 @@
-// Buger menu    /  Année automatique / Automatised Language Selector
+// Buger menu    /  Année automatique / / Toggle / Automatised Language Selector
 
 // burger :
 
@@ -24,6 +24,17 @@ function closeNav() {
 const date = new Date();
 const year = date.getFullYear();
 document.getElementById("activeyear").innerHTML = year;
+
+
+// Toggle
+const toggles = document.querySelectorAll('.toggle');
+  toggles.forEach((toggle) => {
+    const target = document.querySelector(toggle.getAttribute('data-target'));
+    toggle.addEventListener('click', () => {
+      target.classList.toggle('visible');
+    });
+  });
+
 
 // language automatised selector
 

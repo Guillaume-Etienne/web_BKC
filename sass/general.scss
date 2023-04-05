@@ -2,7 +2,7 @@
 @import "./menu_burger";
 @import "./animations";
 
-// general, puis pages, prix, galerie, infos, secret
+// general, puis toggle, puis les pages, prix, galerie, infos, secret
 
 *{
     box-sizing: border-box;
@@ -145,6 +145,15 @@ footer{
         }
     }    
 }
+// Toggle
+.block {
+    display: none;
+  }
+  
+  .visible {
+    display: block;
+  }
+
 // pages
 img {
     width: 100%;
