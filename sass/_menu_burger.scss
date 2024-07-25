@@ -1,4 +1,4 @@
-/* Sidenav menu */
+/* Sidenav menu    ------- /  ---------  Then SubMenu */  
 .sidenav {
   height: 100%;
   width: 250px;
@@ -51,4 +51,18 @@
   height: 5px;
   background-color: black;
   margin: 6px 0;
+}
+
+/* SubMenu */
+.sub-menu {
+  display: none;
+  & li {
+    margin-left: 10px;
+    background-color: $colorbackground;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sub-menu {
+    position: absolute;
+  }
 }
